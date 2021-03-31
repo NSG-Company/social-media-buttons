@@ -1,0 +1,67 @@
+body {
+    background: rgb(223, 219, 215);
+    
+    
+}
+.btn-group {
+    padding: 0px 0px;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    float: right;
+    font-size: 16px;
+    margin: 250px -8px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    position: relative;
+    
+}
+@keyframes colors {
+    from {background-color: rgb(10, 0, 0);}
+    to {background-color: rgb(33, 86, 184);}
+  }
+.blog {
+    background-color: #e17b77;
+    display: block;
+    height: 80px;
+    width: 100px;
+    animation-name: colors;
+    animation-duration: 4s;
+    
+}
+
+.facebook {
+    background-color: #3b5998;
+    display: block;
+    height: 80px;
+    width: 100px;
+    animation-name: colors;
+    animation-duration: 4s;
+}
+
+.twitter {
+    background-color: #6acaec;
+    display: block;
+    height: 80px;
+    width: 100px;
+    animation-name: colors;
+    animation-duration: 4s;
+}
+
+.github {
+    background-color: #333;
+    display: block;
+    height: 80px;
+    width: 100px;
+    animation-name: colors;
+    animation-duration: 4s;
+}
+
+.linkedin {
+    background-color: #007bb6;
+    display: block;
+    height: 80px;
+    width: 100px;
+    animation-name: colors;
+    animation-duration: 4s;
+}

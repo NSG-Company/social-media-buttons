@@ -1,0 +1,91 @@
+body {
+  background: #dfdbd7;
+}
+
+.btn-group {
+  padding: 0px 0px;
+  text-align: right;
+  text-decoration: none;
+  display: block;
+  float: right;
+  font-size: 16px;
+  margin: 250px -8px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  cursor: pointer;
+  position: relative;
+}
+
+@-webkit-keyframes colors {
+  from {
+    background-color: #0a0000;
+  }
+  to {
+    background-color: #2156b8;
+  }
+}
+
+@keyframes colors {
+  from {
+    background-color: #0a0000;
+  }
+  to {
+    background-color: #2156b8;
+  }
+}
+
+.blog {
+  background-color: #e17b77;
+  display: block;
+  height: 80px;
+  width: 100px;
+  -webkit-animation-name: colors;
+          animation-name: colors;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.facebook {
+  background-color: #3b5998;
+  display: block;
+  height: 80px;
+  width: 100px;
+  -webkit-animation-name: colors;
+          animation-name: colors;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.twitter {
+  background-color: #6acaec;
+  display: block;
+  height: 80px;
+  width: 100px;
+  -webkit-animation-name: colors;
+          animation-name: colors;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.github {
+  background-color: #333;
+  display: block;
+  height: 80px;
+  width: 100px;
+  -webkit-animation-name: colors;
+          animation-name: colors;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.linkedin {
+  background-color: #007bb6;
+  display: block;
+  height: 80px;
+  width: 100px;
+  -webkit-animation-name: colors;
+          animation-name: colors;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+/*# sourceMappingURL=styles.css.map */
